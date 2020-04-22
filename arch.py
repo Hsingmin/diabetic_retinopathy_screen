@@ -12,7 +12,7 @@ def log(file, message):
 # Main Function
 def main():
     # Open dataset file
-    dataset = open('dataindex.csv', 'rb')
+    dataset = open('dataindex.csv', 'r')
 
     # Open log file
     logfile = open('log.log', 'a')
